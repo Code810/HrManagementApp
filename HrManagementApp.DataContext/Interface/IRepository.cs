@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HrManagementApp.Domain.Models.Common
+namespace HrManagementApp.DataContext.Interface
 {
-    public class BaseEntity
+    internal class IRepository
     {
-        public int Id { get; set; }
     }
 }
