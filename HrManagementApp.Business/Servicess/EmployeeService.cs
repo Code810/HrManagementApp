@@ -13,7 +13,6 @@ namespace HrManagementApp.Business.Servicess
     {
         private readonly EmployeeRepository _employeeRepository;
         private readonly DepartmentRepository _departmentRepository;
-        private static int count = DbContext.Employees.Last().Id + DbContext.Departments.Last().Id+1;
         public EmployeeService()
         {
             _employeeRepository = new();
@@ -26,11 +25,12 @@ namespace HrManagementApp.Business.Servicess
             if (existDepartment is null) return null;
             var existEmployesByDepartment = _employeeRepository.GetAll(e => e.DepartmentName.Name == departmentname);
             if (existEmployesByDepartment.Count >= existDepartment.WorkerLimit) return null;
-            employee.Id = count;
+            employee.Id = DbContext.count+1;
+            employee.No = departmentname.Substring(0, 2) + (1000 + DbContext.Employees.Count+1);
             employee.DepartmentName = existDepartment;
             bool result = _employeeRepository.Creat(employee);
             if (!result) return null;;
-            count++;
+            DbContext.count++;
             return employee;
         }
         public Employee Delete(string employeeNo)
@@ -63,8 +63,8 @@ namespace HrManagementApp.Business.Servicess
             var existEmployesByDepartment = _employeeRepository.GetAll(e => e.DepartmentName.Name.ToLower() == departmentName.ToLower());
             if (existEmployesByDepartment.Count >= existDepartmentByName.WorkerLimit && existEmployeeByNo.DepartmentName.Name != departmentName) return null;
             employee.DepartmentName = existDepartmentByName;
+            employee.No = no;
             if (_employeeRepository.Update(employee)) return employee;
-
                 return null;
         }
 
@@ -89,11 +89,11 @@ namespace HrManagementApp.Business.Servicess
         
         public List<Employee> GetAll(string searchText)
         {
-            var existemployees = _employeeRepository.GetAll(e => e.Salary.ToString().ToLower().Contains(searchText.ToLower()) ||
-            e.FullName.ToString().ToLower().Contains(searchText.ToLower()) ||
-            e.No.ToString().ToLower().Contains(searchText.ToLower()) ||
-            e.Position.ToString().ToLower().Contains(searchText.ToLower()) ||
-            e.DepartmentName.Name.ToString().ToLower().Contains(searchText.ToLower()));
+            var existemployees = _employeeRepository.GetAll(e => e.Salary.ToString().Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+            e.FullName.ToString().Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+            e.No.ToString().Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+            e.Position.ToString().Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+            e.DepartmentName.Name.ToString().Contains(searchText, StringComparison.OrdinalIgnoreCase));
             if (existemployees.Count == 0) return null;
             return existemployees;
             

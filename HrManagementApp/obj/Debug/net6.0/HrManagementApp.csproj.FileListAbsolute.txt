@@ -1,0 +1,14 @@
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\bin\Debug\net6.0\HrManagementApp.exe
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\bin\Debug\net6.0\HrManagementApp.deps.json
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\bin\Debug\net6.0\HrManagementApp.runtimeconfig.json
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\bin\Debug\net6.0\HrManagementApp.dll
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\bin\Debug\net6.0\HrManagementApp.pdb
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\HrManagementApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\HrManagementApp.AssemblyInfoInputs.cache
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\HrManagementApp.AssemblyInfo.cs
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\HrManagementApp.csproj.CoreCompileInputs.cache
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\HrManagementApp.dll
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\refint\HrManagementApp.dll
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\HrManagementApp.pdb
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\HrManagementApp.genruntimeconfig.cache
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\ref\HrManagementApp.dll

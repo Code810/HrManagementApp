@@ -11,6 +11,7 @@ namespace HrManagementApp.DataContext
     {
         public static List<Employee> Employees { get; set; }
         public static List<Department> Departments { get; set; }
+        public static int count { get; set; }
 
         static DbContext() { 
         Employees = new();

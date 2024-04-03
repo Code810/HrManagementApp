@@ -10,8 +10,4 @@
     <ProjectReference Include="..\HrManagementApp.DataContext\HrManagementApp.DataContext.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Servicess\" />
-  </ItemGroup>
-
 </Project>
