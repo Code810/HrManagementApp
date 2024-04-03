@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagementApp", "HrManagementApp\HrManagementApp.csproj", "{CBA48E15-45A9-44C4-9969-5863EC494B74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HrManagementApp", "HrManagementApp\HrManagementApp.csproj", "{CBA48E15-45A9-44C4-9969-5863EC494B74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagementApp.Domain", "HrManagementApp.Domain\HrManagementApp.Domain.csproj", "{402A5F4B-E1A3-4C39-B887-4ACE8D3B68D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HrManagementApp.Domain", "HrManagementApp.Domain\HrManagementApp.Domain.csproj", "{402A5F4B-E1A3-4C39-B887-4ACE8D3B68D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagementApp.DataContext", "HrManagementApp.DataContext\HrManagementApp.DataContext.csproj", "{F82AB974-2EF5-4506-B272-00065FA2BDF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagementApp.Business", "HrManagementApp.Business\HrManagementApp.Business.csproj", "{4631CAAC-5E71-4917-80B2-854E6D754C72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{402A5F4B-E1A3-4C39-B887-4ACE8D3B68D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402A5F4B-E1A3-4C39-B887-4ACE8D3B68D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{402A5F4B-E1A3-4C39-B887-4ACE8D3B68D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82AB974-2EF5-4506-B272-00065FA2BDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82AB974-2EF5-4506-B272-00065FA2BDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82AB974-2EF5-4506-B272-00065FA2BDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82AB974-2EF5-4506-B272-00065FA2BDF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4631CAAC-5E71-4917-80B2-854E6D754C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4631CAAC-5E71-4917-80B2-854E6D754C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4631CAAC-5E71-4917-80B2-854E6D754C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4631CAAC-5E71-4917-80B2-854E6D754C72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
