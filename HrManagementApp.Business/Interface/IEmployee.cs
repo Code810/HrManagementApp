@@ -14,6 +14,7 @@ namespace HrManagementApp.Business.Servicess
         Employee Update(string no, Employee employee, string departmentName);
         Employee Get(string employeeNo);
         List<Employee> GetAll();
+        List<Employee> GetAllByDepartmentName(string DepartmentName);
         List<Employee> GetAll(string searchText);
         int CalcSalaryAverage(string departmentname);
     }

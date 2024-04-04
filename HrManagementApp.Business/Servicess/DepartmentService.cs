@@ -64,12 +64,21 @@ namespace HrManagementApp.Business.Servicess
 
         public List<Department> GetDepartaments()
         {
-            throw new NotImplementedException();
+            var existDepartments=_departmentRepository.GetAll();
+            if (existDepartments.Count == 0) return null;
+            return existDepartments;
         }
 
         public Department Update(string departmentname, string newdepartmentname)
         {
-            throw new NotImplementedException();
+            var existDepartment=_departmentRepository.Get(d=>d.Name==departmentname);
+            var existNewDepatment=_departmentRepository.Get(d=>d.Name==newdepartmentname);
+            if (existDepartment is null) return null;
+            if (existNewDepatment is not null) return null;
+            existDepartment.Name = newdepartmentname;
+
+            if (_departmentRepository.Update(existDepartment)) return existDepartment;
+            else return null;
         }
     }
 }

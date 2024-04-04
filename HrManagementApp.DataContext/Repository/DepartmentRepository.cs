@@ -53,7 +53,7 @@ namespace HrManagementApp.DataContext.Repository
         {
             try
             {
-                var existDepartmentIndex = DbContext.Departments.FindIndex(u=>u.Id==entity.Id);
+                var existDepartmentIndex = DbContext.Departments.FindIndex(d=>d.Id==entity.Id);
                 if (existDepartmentIndex != -1)
                 {
                     DbContext.Departments[existDepartmentIndex] = entity;

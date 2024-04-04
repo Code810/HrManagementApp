@@ -1,11 +1,66 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "HrManagementApp.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "HrManagementApp.DataContext": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HrManagementApp.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HrManagementApp.Business.dll": {}
+        }
+      },
+      "HrManagementApp.DataContext/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "HrManagementApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HrManagementApp.DataContext.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HrManagementApp.DataContext.dll": {}
+        }
+      },
+      "HrManagementApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HrManagementApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HrManagementApp.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HrManagementApp.Business/1.0.0": {
+      "type": "project",
+      "path": "../HrManagementApp.Business/HrManagementApp.Business.csproj",
+      "msbuildProject": "../HrManagementApp.Business/HrManagementApp.Business.csproj"
+    },
+    "HrManagementApp.DataContext/1.0.0": {
+      "type": "project",
+      "path": "../HrManagementApp.DataContext/HrManagementApp.DataContext.csproj",
+      "msbuildProject": "../HrManagementApp.DataContext/HrManagementApp.DataContext.csproj"
+    },
+    "HrManagementApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HrManagementApp.Domain/HrManagementApp.Domain.csproj",
+      "msbuildProject": "../HrManagementApp.Domain/HrManagementApp.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "HrManagementApp.Business >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\seidb\\.nuget\\packages\\": {},
@@ -38,7 +93,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\seidb\\OneDrive\\Masaüstü\\HR MANAGMENT\\HrManagementApp\\HrManagementApp.Business\\HrManagementApp.Business.csproj": {
+              "projectPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\HR MANAGMENT\\HrManagementApp\\HrManagementApp.Business\\HrManagementApp.Business.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

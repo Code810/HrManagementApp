@@ -90,15 +90,20 @@ namespace HrManagementApp.Business.Servicess
         public List<Employee> GetAll(string searchText)
         {
             var existemployees = _employeeRepository.GetAll(e => e.Salary.ToString().Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
-            e.FullName.ToString().Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
-            e.No.ToString().Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
-            e.Position.ToString().Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
-            e.DepartmentName.Name.ToString().Contains(searchText, StringComparison.OrdinalIgnoreCase));
+            e.FullName.Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+            e.No.Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+            e.Position.Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+            e.DepartmentName.Name.Contains(searchText, StringComparison.OrdinalIgnoreCase));
             if (existemployees.Count == 0) return null;
             return existemployees;
             
         }
 
-       
+        public List<Employee> GetAllByDepartmentName(string DepartmentName)
+        {
+            var existemployees = _employeeRepository.GetAll(e => e.DepartmentName.Name.ToLower()== DepartmentName.ToLower());
+            if (existemployees.Count == 0) return null;
+            return existemployees;
+        }
     }
 }
