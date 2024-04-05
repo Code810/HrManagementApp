@@ -1,0 +1,17 @@
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\bin\Debug\net6.0\HrManagementApp.Business.deps.json
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\bin\Debug\net6.0\HrManagementApp.Business.dll
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\bin\Debug\net6.0\HrManagementApp.Business.pdb
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\bin\Debug\net6.0\HrManagementApp.DataContext.dll
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\bin\Debug\net6.0\HrManagementApp.Domain.dll
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\bin\Debug\net6.0\HrManagementApp.DataContext.pdb
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\bin\Debug\net6.0\HrManagementApp.Domain.pdb
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\obj\Debug\net6.0\HrManagementApp.Business.csproj.AssemblyReference.cache
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\obj\Debug\net6.0\HrManagementApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\obj\Debug\net6.0\HrManagementApp.Business.AssemblyInfoInputs.cache
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\obj\Debug\net6.0\HrManagementApp.Business.AssemblyInfo.cs
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\obj\Debug\net6.0\HrManagementApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\obj\Debug\net6.0\HrManagementApp.Business.csproj.CopyComplete
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\obj\Debug\net6.0\HrManagementApp.Business.dll
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\obj\Debug\net6.0\refint\HrManagementApp.Business.dll
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\obj\Debug\net6.0\HrManagementApp.Business.pdb
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp.Business\obj\Debug\net6.0\ref\HrManagementApp.Business.dll

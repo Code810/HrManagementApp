@@ -12,3 +12,11 @@ C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\
 C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\HrManagementApp.pdb
 C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\HrManagementApp.genruntimeconfig.cache
 C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\ref\HrManagementApp.dll
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\bin\Debug\net6.0\HrManagementApp.Business.dll
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\bin\Debug\net6.0\HrManagementApp.DataContext.dll
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\bin\Debug\net6.0\HrManagementApp.Domain.dll
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\bin\Debug\net6.0\HrManagementApp.Business.pdb
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\bin\Debug\net6.0\HrManagementApp.DataContext.pdb
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\bin\Debug\net6.0\HrManagementApp.Domain.pdb
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\HrManagementApp.csproj.AssemblyReference.cache
+C:\Users\seidb\OneDrive\Masaüstü\HR MANAGMENT\HrManagementApp\HrManagementApp\obj\Debug\net6.0\HrManagementApp.csproj.CopyComplete

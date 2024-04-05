@@ -20,6 +20,8 @@ namespace HrManagementApp.Helper
            getAllDepartments=1,
            creatDepartment,
            editDepartment,
+           deleteDepartment,
+           getDepartment,
             exit = 0,
 
         }

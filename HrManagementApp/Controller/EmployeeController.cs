@@ -38,10 +38,12 @@ namespace HrManagementApp.Controller
             }
             else Console.WriteLine("Something went wrong");
         }
-        public void Delete(string employeno)
+        public void Delete()
         {
-            if (employeeService.Delete(employeno) is null) Console.WriteLine("Something went wrong");
-            else Console.WriteLine("Something went wrong");
+            Console.WriteLine("Enter Employee name");
+            var employeeName = Console.ReadLine();
+            if (employeeService.Delete(employeeName) is null) Console.WriteLine("Something went wrong");
+            else Console.WriteLine("Employee deleted");
         }
 
         public void GetEmployee()
@@ -60,7 +62,7 @@ namespace HrManagementApp.Controller
         {
             var employees = employeeService.GetAll();
 
-            if (employees.Count > 0)
+            if (employees is not null)
             {
                 Console.WriteLine("-------List of all employees-------");
                 foreach (var employee in employees)

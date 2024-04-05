@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HrManagementApp.Business\HrManagementApp.Business.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -54,15 +54,10 @@ namespace HrManagementApp.Business.Servicess
             return existemployees;
         }
 
-        public Employee Update(string no, Employee employee, string departmentName)
+        public Employee Update(string no, Employee employee)
         {
             var existEmployeeByNo = _employeeRepository.Get(e => e.No == no);
             if (existEmployeeByNo is null) return null;
-            var existDepartmentByName = _departmentRepository.Get(d => d.Name.ToLower() == departmentName.ToLower());
-            if (existDepartmentByName is null) return null;
-            var existEmployesByDepartment = _employeeRepository.GetAll(e => e.DepartmentName.Name.ToLower() == departmentName.ToLower());
-            if (existEmployesByDepartment.Count >= existDepartmentByName.WorkerLimit && existEmployeeByNo.DepartmentName.Name != departmentName) return null;
-            employee.DepartmentName = existDepartmentByName;
             employee.No = no;
             if (_employeeRepository.Update(employee)) return employee;
                 return null;
@@ -101,7 +96,7 @@ namespace HrManagementApp.Business.Servicess
 
         public List<Employee> GetAllByDepartmentName(string DepartmentName)
         {
-            var existemployees = _employeeRepository.GetAll(e => e.DepartmentName.Name.ToLower()== DepartmentName.ToLower());
+            var existemployees = _employeeRepository.GetAll(e => e.DepartmentName.Name.ToLower()==DepartmentName.ToLower());
             if (existemployees.Count == 0) return null;
             return existemployees;
         }

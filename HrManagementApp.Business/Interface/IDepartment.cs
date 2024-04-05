@@ -13,6 +13,8 @@ namespace HrManagementApp.Business.Interface
         List<Department> GetDepartaments();
         Department Update(string departmentname, string newdepartmentname);
         Department Delete(string name);
-       
+        public Department Get(string departmentName);
+
+
     }
 }

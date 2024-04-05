@@ -7,14 +7,53 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "HrManagementApp/1.0.0": {
+        "dependencies": {
+          "HrManagementApp.Business": "1.0.0"
+        },
         "runtime": {
           "HrManagementApp.dll": {}
+        }
+      },
+      "HrManagementApp.Business/1.0.0": {
+        "dependencies": {
+          "HrManagementApp.DataContext": "1.0.0"
+        },
+        "runtime": {
+          "HrManagementApp.Business.dll": {}
+        }
+      },
+      "HrManagementApp.DataContext/1.0.0": {
+        "dependencies": {
+          "HrManagementApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HrManagementApp.DataContext.dll": {}
+        }
+      },
+      "HrManagementApp.Domain/1.0.0": {
+        "runtime": {
+          "HrManagementApp.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "HrManagementApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HrManagementApp.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HrManagementApp.DataContext/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HrManagementApp.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

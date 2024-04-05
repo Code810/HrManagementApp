@@ -11,7 +11,7 @@ namespace HrManagementApp.Business.Servicess
     {
         Employee Creat(Employee employee, string departmentname);
         Employee Delete(string employeeNo);
-        Employee Update(string no, Employee employee, string departmentName);
+        Employee Update(string no, Employee employee);
         Employee Get(string employeeNo);
         List<Employee> GetAll();
         List<Employee> GetAllByDepartmentName(string DepartmentName);

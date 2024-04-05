@@ -33,7 +33,12 @@ namespace HrManagementApp.Business.Servicess
             return department;
         }
 
-
+        public Department Get(string departmentName)
+        {
+            var existDepartment = _departmentRepository.Get(d => d.Name == departmentName);
+            if (existDepartment is null) return null;
+            return existDepartment;
+        }
 
         public Department Delete(string name)
         {
