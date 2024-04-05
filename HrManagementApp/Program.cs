@@ -98,7 +98,9 @@ while (true)
             case (int)Menu.search:
                 employeeController.Search();
                 break;
-           
+            case (int)Menu.exit:
+                Environment.Exit((int)Menu.exit);
+                break;
                 
         }
     }

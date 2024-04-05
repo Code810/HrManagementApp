@@ -28,7 +28,7 @@ namespace HrManagementApp.Controller
             var salaryLimit = Console.ReadLine();
             bool resultWorkerLimit = int.TryParse(workerLimit, out int intWorkerLimit);
             bool resultSalaryLimit = int.TryParse(salaryLimit, out int intSalaryLimit);
-            if (resultSalaryLimit && resultWorkerLimit)
+            if (resultSalaryLimit && resultWorkerLimit && intSalaryLimit >= 250&& intWorkerLimit>1)
             {
                 Department department = new ();
                 department.Name = departmentName;

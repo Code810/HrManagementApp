@@ -26,7 +26,7 @@ namespace HrManagementApp.Business.Servicess
             var existEmployesByDepartment = _employeeRepository.GetAll(e => e.DepartmentName.Name == departmentname);
             if (existEmployesByDepartment.Count >= existDepartment.WorkerLimit) return null;
             employee.Id = DbContext.count+1;
-            employee.No = departmentname.Substring(0, 2) + (1000 + DbContext.Employees.Count+1);
+            employee.No = departmentname.Substring(0, 2).ToUpper() + (1000 + DbContext.Employees.Count+1);
             employee.DepartmentName = existDepartment;
             bool result = _employeeRepository.Creat(employee);
             if (!result) return null;;

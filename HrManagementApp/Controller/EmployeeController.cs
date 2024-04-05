@@ -54,7 +54,7 @@ namespace HrManagementApp.Controller
                 var employee = employeeService.Get(num);
                 if (employee is not null)
                 {
-                    Console.WriteLine($"Number:{employee.No} FullName:{employee.FullName} Department:{employee.DepartmentName.Name} Salary:{employee.Salary} azn");
+                    Console.WriteLine($"Number:{employee.No} FullName:{employee.FullName} Position:{employee.Position} Department:{employee.DepartmentName.Name} Salary:{employee.Salary} azn");
                 }
                 else Console.WriteLine("Somthing went wrong"); 
         }
@@ -67,7 +67,7 @@ namespace HrManagementApp.Controller
                 Console.WriteLine("-------List of all employees-------");
                 foreach (var employee in employees)
                 {
-                    Console.WriteLine($"Number:{employee.No} FullName:{employee.FullName} Department:{employee.DepartmentName.Name} Salary:{employee.Salary} azn");
+                    Console.WriteLine($"Number:{employee.No} FullName:{employee.FullName} Position:{employee.Position} Department:{employee.DepartmentName.Name} Salary:{employee.Salary} azn");
                 }
             }
             else Console.WriteLine("Empty List"); 
@@ -79,7 +79,7 @@ namespace HrManagementApp.Controller
             var employee = employeeService.Get(num);
             if (employee is  null) Console.WriteLine("Employee not found");
             else Console.WriteLine($"Number:{employee.No} FullName:{employee.FullName} Department:{employee.DepartmentName.Name} Salary:{employee.Salary} azn");
-            Console.WriteLine("Enter new position");
+            Console.WriteLine("Enter new position: ");
             string position = Console.ReadLine();
             Console.WriteLine("Enter new salary");
             string salary = Console.ReadLine();
@@ -121,7 +121,7 @@ namespace HrManagementApp.Controller
                 Console.WriteLine("-------List of all employees-------");
                 foreach (var employee in employees)
                 {
-                    Console.WriteLine($"Number:{employee.No} FullName:{employee.FullName} Department:{employee.DepartmentName.Name} Salary:{employee.Salary} azn");
+                    Console.WriteLine($"Number:{employee.No} FullName:{employee.FullName} Position:{employee.Position} Department:{employee.DepartmentName.Name} Salary:{employee.Salary} azn");
                 }
             }
             else Console.WriteLine("Empty List");
